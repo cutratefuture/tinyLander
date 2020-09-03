@@ -1,17 +1,26 @@
 <template>
-  <div class="home">
-    <Lander msg="buildin'" />
-  </div>
+  <b-container>
+    <b-row>
+      <b-col md="6">
+        <Lander />
+      </b-col>
+      <b-col md="6">
+        <Menu />
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
+<style lang="scss"></style>
+
 <script>
-// @ is an alias to /src
-import Lander from "@/components/Lander.vue";
+import Lander from "../components/Lander.vue";
+import Menu from "../components/Menu.vue";
 
 export default {
-  name: "Home",
   components: {
-    Lander
+    Lander,
+    Menu
   }
 };
 </script>

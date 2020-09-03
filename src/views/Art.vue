@@ -1,6 +1,6 @@
 <template>
   <div>
-    <router-view />
+    ART
   </div>
 </template>
 
@@ -8,4 +8,8 @@
 export default {};
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="scss" scoped>
+div {
+  background-color: red;
+}
+</style>

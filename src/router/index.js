@@ -5,10 +5,26 @@ import Home from "../views/Home.vue";
 Vue.use(VueRouter);
 
 const routes = [
+  { path: "/", name: "Home", component: Home },
   {
-    path: "/",
-    name: "Home",
-    component: Home
+    path: "/music",
+    name: "Music",
+    component: () => import("../views/Music.vue")
+  },
+  {
+    path: "/art",
+    name: "Art",
+    component: () => import("../views/Art.vue")
+  },
+  {
+    path: "/blog",
+    name: "Blog",
+    component: () => import("../views/Blog.vue")
+  },
+  {
+    path: "/contact",
+    name: "Contact",
+    component: () => import("../views/Contact.vue")
   }
 ];
 
