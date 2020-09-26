@@ -4,9 +4,6 @@
       <b-col md="6">
         <Lander />
       </b-col>
-      <!-- <b-col md="6">
-        <Menu />
-      </b-col> -->
     </b-row>
   </b-container>
 </template>
@@ -15,12 +12,10 @@
 
 <script>
 import Lander from "../components/Lander.vue";
-// import Menu from "../components/Menu.vue";
 
 export default {
   components: {
     Lander,
-    // Menu
   }
 };
 </script>

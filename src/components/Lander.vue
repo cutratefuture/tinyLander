@@ -51,7 +51,6 @@ export default {
 <style lang="css" scoped>
 .hero img {
   height: 13.3em;
-  background-color: #e8e9eb;
   padding: 1.1em;
 }
 
